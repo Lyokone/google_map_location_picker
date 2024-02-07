@@ -11,7 +11,7 @@ class LocationResult {
   String? placeId;
 
   /// Latitude/Longitude of the selected location.
-  LatLng? latLng;
+  LatLng? latLng = LatLng(0.0, 0.0);
 
   LocationResult({this.latLng, this.address, this.placeId});
 
